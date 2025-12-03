@@ -1,0 +1,326 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f9dad9;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .login{
+            width: 30%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(253, 249, 249, 0.906);
+            padding: 30px;
+            margin: bottom 20px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background-color: #ef2f7f;
+
+        }
+        h1{
+            margin-bottom: 20px;
+        }
+        input{
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .input label{
+            font-size: 14px;
+            
+        }
+        .input input{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 5px;
+            border: 1px solid #ffcce5;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button{
+            width : 107%;
+            padding: 12px;
+            border: 1px;
+            border-radius: 5px;
+            background-color: #f9d9d9;
+            color: rgba(241, 118, 163,);
+            cursor: pointer;
+            
+        }
+        button:hover{
+            background-color: #ffcece;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 14px;
+
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Login to the Webpage</h1>
+            <nav>
+                <a href="home.html">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="login">
+        <h2>Login</h2>
+        <form>
+            <div class="input">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            </div>
+            <button type="submit">Login</button>
+            
+        </form>
+
+ 
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Login Page. All rights reserved.</p>
+    </footer>
+        
+    
+    
+</body>
+</html>-->
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login to Prolinguistic</title>
+  <!--<link rel="stylesheet" href="login.css">-->
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #a8ebff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding:0;
+  }
+  header {
+    background-color: #b1edff;
+    color: #2fdfef;
+    font-family:  Alice;
+    padding: 30px;
+    position: fixed;
+    height: 80px;
+    font-size: 24px;
+    top:0;
+    width:100%;
+  }
+  footer {
+  background-color: #d9f9f8;
+  color: #2fefef;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  left:0;
+
+}
+  .login-container {
+    width: 30%;
+    max-width: 400px
+    back-ground;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow:  0 2px 10px rgba(253, 249, 249, 0.905);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:#2fd9ef;
+
+  }
+  .page-title {
+    width: 100%;
+    text-align: center;
+    text-align: top;
+    background-color: #d9f8f9;
+    color: #047b81;
+    padding: 20px 0;
+    
+    margin-bottom: 20px;
+  }
+  
+  .page-title h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  
+  
+  h1{
+    font-size: 35px;
+    color: #047581;
+    text-align: center;
+    text-align: top;
+  }
+  
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .input-group label {
+    font-size: 14px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .signup-prompt {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #40a7ad;
+  }
+  
+  .signup-link {
+    color: #409bad;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+    color: #dbe5e6;
+  }
+  
+
+  
+  
+  button {
+    width: 107%;
+    
+    padding: 12px;
+    background-color: #d9f4f9;
+    color: rgb(118, 212, 241);
+    border: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #cef9ff;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .custom-alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(47, 134, 142);
+    color: #bceffa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .custom-alert p {
+    margin: 0 0 20px;
+    font-size: 16px;
+  }
+  
+  .custom-alert button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: rgb(47, 142, 134);
+    color: #bcf9fa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .custom-alert button:hover {
+    background-color: #e8fcff;
+  }
+  
+  
+  
+  </style>
+</head>
+<body>
+  <header>
+  <h1>Login to Prolinguistic</h1>
+ </header><br><br>
+   
+  <div class="login-container">
+    <h2>Login</h2>
+    <form action="home.html">
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+      <p class="signup-prompt">Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </form>
+  </div><br><br>
+  <footer>
+    <p>&copy; © 2025 Prolinguistic. All about learning to desire language without any hesitation!</p>
+  </footer>
+
+  <script src="login.js"></script>
+</body>
+</html>
